@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gear Optimizer UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pixel Gear Optimizer</h1>
+
+  <div class="gear-container">
+
+    <!-- Necklace -->
+    <div class="gear-slot">
+      <img src="https://i.imgur.com/v7rigaY.png" alt="Necklace">
+      <div class="chosen-stats"></div>
+      <select class="stat-select">
+        <option value="">-- Select Stat --</option>
+        <option>Attack 26%</option>
+        <option>Attack Speed 16%</option>
+        <option>Crit Chance 16%</option>
+        <option>Evasion 16%</option>
+        <option>Critical Damage 40%</option>
+        <option>Defence 26%</option>
+        <option>HP 26%</option>
+      </select>
+    </div>
+
+    <!-- Helm -->
+    <div class="gear-slot">
+      <img src="https://i.imgur.com/5wJhCGL.png" alt="Helm">
+      <div class="chosen-stats"></div>
+      <select class="stat-select">
+        <option value="">-- Select Stat --</option>
+        <option>Attack 26%</option>
+        <option>Attack Speed 16%</option>
+        <option>Crit Chance 16%</option>
+        <option>Evasion 16%</option>
+        <option>Critical Damage 40%</option>
+        <option>Defence 26%</option>
+        <option>HP 26%</option>
+      </select>
+    </div>
+
+    <!-- Chest -->
+    <div class="gear-slot">
+      <img src="https://i.imgur.com/NoEyUq8.png" alt="Chest">
+      <div class="chosen-stats"></div>
+      <select class="stat-select">
+        <option value="">-- Select Stat --</option>
+        <option>Attack 26%</option>
+        <option>Attack Speed 16%</option>
+        <option>Crit Chance 16%</option>
+        <option>Evasion 16%</option>
+        <option>Critical Damage 40%</option>
+        <option>Defence 26%</option>
+        <option>HP 26%</option>
+      </select>
+    </div>
+
+    <!-- Gloves -->
+    <div class="gear-slot">
+      <img src="https://i.imgur.com/f8SnRKu.png" alt="Gloves">
+      <div class="chosen-stats"></div>
+      <select class="stat-select">
+        <option value="">-- Select Stat --</option>
+        <option>Attack 26%</option>
+        <option>Attack Speed 16%</option>
+        <option>Crit Chance 16%</option>
+        <option>Evasion 16%</option>
+        <option>Critical Damage 40%</option>
+        <option>Defence 26%</option>
+        <option>HP 26%</option>
+      </select>
+    </div>
+
+    <!-- Belt -->
+    <div class="gear-slot">
+      <img src="https://i.imgur.com/Esr60DE.png" alt="Belt">
+      <div class="chosen-stats"></div>
+      <select class="stat-select">
+        <option value="">-- Select Stat --</option>
+        <option>Attack 26%</option>
+        <option>Attack Speed 16%</option>
+        <option>Crit Chance 16%</option>
+        <option>Evasion 16%</option>
+        <option>Critical Damage 40%</option>
+        <option>Defence 26%</option>
+        <option>HP 26%</option>
+      </select>
+    </div>
+
+    <!-- Boots -->
+    <div class="gear-slot">
+      <img src="https://i.imgur.com/ynALsQZ.png" alt="Boots">
+      <div class="chosen-stats"></div>
+      <select class="stat-select">
+        <option value="">-- Select Stat --</option>
+        <option>Attack 26%</option>
+        <option>Attack Speed 16%</option>
+        <option>Crit Chance 16%</option>
+        <option>Evasion 16%</option>
+        <option>Critical Damage 40%</option>
+        <option>Defence 26%</option>
+        <option>HP 26%</option>
+      </select>
+    </div>
+
+    <!-- Ring -->
+    <div class="gear-slot">
+      <img src="https://i.imgur.com/NOK6oWr.png" alt="Ring">
+      <div class="chosen-stats"></div>
+      <select class="stat-select">
+        <option value="">-- Select Stat --</option>
+        <option>Attack 26%</option>
+        <option>Attack Speed 16%</option>
+        <option>Crit Chance 16%</option>
+        <option>Evasion 16%</option>
+        <option>Critical Damage 40%</option>
+        <option>Defence 26%</option>
+        <option>HP 26%</option>
+      </select>
+    </div>
+
+    <!-- Weapon -->
+    <div class="gear-slot">
+      <img src="https://i.imgur.com/uTezEzX.png" alt="Weapon">
+      <div class="chosen-stats"></div>
+      <select class="stat-select">
+        <option value="">-- Select Stat --</option>
+        <option>Attack 26%</option>
+        <option>Attack Speed 16%</option>
+        <option>Crit Chance 16%</option>
+        <option>Evasion 16%</option>
+        <option>Critical Damage 40%</option>
+        <option>Defence 26%</option>
+        <option>HP 26%</option>
+      </select>
+    </div>
+
+    <!-- Character -->
+    <div class="gear-slot">
+      <img src="https://i.imgur.com/yVTs5Pm.png" alt="Character">
+      <div class="chosen-stats"></div>
+      <select class="stat-select">
+        <option value="">-- Select Stat --</option>
+        <option>Attack 26%</option>
+        <option>Attack Speed 16%</option>
+        <option>Crit Chance 16%</option>
+        <option>Evasion 16%</option>
+        <option>Critical Damage 40%</option>
+        <option>Defence 26%</option>
+        <option>HP 26%</option>
+      </select>
+    </div>
+
+  </div>
+
+  <div id="totals-box">
+    <h2>Total Stats</h2>
+    <ul id="totals-list">
+      <li>Attack: 0%</li>
+      <li>Attack Speed: 0%</li>
+      <li>Crit Chance: 0%</li>
+      <li>Evasion: 0%</li>
+      <li>Critical Damage: 0%</li>
+      <li>Defence: 0%</li>
+      <li>HP: 0%</li>
+    </ul>
+    <button id="reset-btn">Reset All</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+body {
+  background: #111;
+  color: white;
+  font-family: 'Press Start 2P', monospace;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.gear-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border: 2px solid purple;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.gear-slot {
+  position: absolute;
+  width: 90px;
+  text-align: center;
+}
+
+.gear-slot img {
+  width: 64px;
+  height: 64px;
+  image-rendering: pixelated;
+}
+
+.gear-slot select {
+  margin-top: 5px;
+  width: 100%;
+  font-size: 10px;
+  font-family: 'Press Start 2P', monospace;
+  background: #222;
+  color: white;
+  border: 1px solid purple;
+}
+
+.chosen-stats {
+  margin-top: 4px;
+  font-size: 8px;
+  color: #ffccff;
+  min-height: 40px;
+}
+
+/* Positions */
+.gear-slot:nth-child(1) { top: 10px; left: 50%; transform: translateX(-50%); } /* Necklace */
+.gear-slot:nth-child(2) { top: 90px; left: 370px; } /* Helm */
+.gear-slot:nth-child(3) { top: 200px; left: 430px; } /* Chest */
+.gear-slot:nth-child(4) { top: 330px; left: 370px; } /* Gloves */
+.gear-slot:nth-child(5) { bottom: 10px; left: 50%; transform: translateX(-50%); } /* Belt */
+.gear-slot:nth-child(6) { top: 330px; left: 40px; } /* Boots */
+.gear-slot:nth-child(7) { top: 200px; left: -10px; } /* Ring */
+.gear-slot:nth-child(8) { top: 90px; left: 40px; } /* Weapon */
+.gear-slot:nth-child(9) { top: 190px; left: 50%; transform: translateX(-50%); } /* Character center */
+
+#totals-box {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid purple;
+  background: #222;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+#totals-box h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#totals-list {
+  list-style: none;
+  padding: 0;
+  font-size: 10px;
+  color: #ffccff;
+  text-align: left;
+}
+
+#reset-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 10px;
+  font-family: 'Press Start 2P', monospace;
+  background: #222;
+  color: white;
+  border: 1px solid purple;
+  cursor: pointer;
+}
+
+#reset-btn:hover {
+  background: purple;
+  color: black;
+}
+function updateTotals() {
+  const stats = {
+    Attack: 0,
+    "Attack Speed": 0,
+    "Crit Chance": 0,
+    Evasion: 0,
+    "Critical Damage": 0,
+    Defence: 0,
+    HP: 0
+  };
+
+  document.querySelectorAll(".chosen-stats div").forEach(line => {
+    if (line.textContent.includes("Attack 26%")) stats.Attack += 26;
+    if (line.textContent.includes("Attack Speed 16%")) stats["Attack Speed"] += 16;
+    if (line.textContent.includes("Crit Chance 16%")) stats["Crit Chance"] += 16;
+    if (line.textContent.includes("Evasion 16%")) stats.Evasion += 16;
+    if (line.textContent.includes("Critical Damage 40%")) stats["Critical Damage"] += 40;
+    if (line.textContent.includes("Defence 26%")) stats.Defence += 26;
+    if (line.textContent.includes("HP 26%")) stats.HP += 26;
+  });
+
+  const list = document.getElementById("totals-list");
+  list.innerHTML = `
+    <li>Attack: ${stats.Attack}%</li>
+    <li>Attack Speed: ${stats["Attack Speed"]}%</li>
+    <li>Crit Chance: ${stats["Crit Chance"]}%</li>
+    <li>Evasion: ${stats.Evasion}%</li>
+    <li>Critical Damage: ${stats["Critical Damage"]}%</li>
+    <li>Defence: ${stats.Defence}%</li>
+    <li>HP: ${stats.HP}%</li>
+  `;
+}
+
+document.querySelectorAll(".stat-select").forEach(select => {
+  select.addEventListener("change", function() {
+    const slot = this.closest(".gear-slot");
+    const chosen = slot.querySelector(".chosen-stats");
+    const stat = this.value;
+
+    if (stat && chosen.children.length < 4) {
+      const statLine = document.createElement("div");
+      statLine.textContent = stat;
+      chosen.appendChild(statLine);
+      updateTotals();
+    }
+
+    this.value = ""; // reset dropdown
+  });
+});
+
+document.getElementById("reset-btn").addEventListener("click", () => {
+  // Clear all chosen stats
+  document.querySelectorAll(".chosen-stats").forEach(slot => {
+    slot.innerHTML = "";
+  });
+
+  // Reset totals
+  updateTotals();
+});
