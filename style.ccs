@@ -1,0 +1,113 @@
+body {
+  background: #1a0f0f;
+  color: white;
+  font-family: 'Press Start 2P', monospace;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Top bar */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #222;
+  border-bottom: 2px solid purple;
+}
+.char-name {
+  font-size: 14px;
+  color: #fff;
+}
+.gold {
+  font-size: 12px;
+  color: gold;
+}
+
+/* Gear grid */
+.gear-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 20px auto;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid purple;
+  border-radius: 15px;
+}
+
+.gear-slot {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+}
+.gear-slot img {
+  width: 64px;
+  height: 64px;
+  image-rendering: pixelated;
+  border: 2px solid purple;
+  background: #111;
+  border-radius: 8px;
+}
+.gear-slot select {
+  margin-top: 4px;
+  width: 80px;
+  font-size: 8px;
+  background: #222;
+  color: white;
+  border: 1px solid purple;
+}
+
+/* Character in center */
+.character {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.character img {
+  width: 96px;
+  image-rendering: pixelated;
+}
+
+/* Slot positions (rough circle) */
+.necklace { top: 30px; left: 50%; transform: translateX(-50%); }
+.helm { top: 100px; left: 370px; }
+.chest { top: 200px; left: 430px; }
+.gloves { top: 330px; left: 370px; }
+.belt { top: 370px; left: 250px; }
+.boots { top: 330px; left: 100px; }
+.ring { top: 200px; left: 40px; }
+.weapon { top: 100px; left: 100px; }
+
+/* Stats panel */
+.stats-panel {
+  width: 300px;
+  margin: 20px auto;
+  background: #222;
+  border: 2px solid purple;
+  padding: 10px;
+  text-align: left;
+}
+.stats-panel h2 {
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.stats-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.stats-panel li {
+  font-size: 10px;
+  margin: 5px 0;
+}
+
+/* Colors for stats */
+.atk { color: red; }
+.def { color: violet; }
+.crit { color: yellow; }
+.atkspd { color: violet; }
+.eva { color: violet; }
+.hp { color: red; }
