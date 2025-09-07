@@ -2,175 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Gear Optimizer UI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gear Optimizer</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Pixel Gear Optimizer</h1>
+  <!-- Top bar -->
+  <div class="top-bar">
+    <div class="char-name">Strong Brin</div>
+    <div class="gold">💰 1,234,567</div>
+  </div>
 
+  <!-- Gear + character -->
   <div class="gear-container">
-
-    <!-- Necklace -->
-    <div class="gear-slot">
+    <div class="gear-slot necklace">
       <img src="https://i.imgur.com/v7rigaY.png" alt="Necklace">
-      <div class="chosen-stats"></div>
-      <select class="stat-select">
-        <option value="">-- Select Stat --</option>
-        <option>Attack 26%</option>
-        <option>Attack Speed 16%</option>
-        <option>Crit Chance 16%</option>
-        <option>Evasion 16%</option>
-        <option>Critical Damage 40%</option>
-        <option>Defence 26%</option>
-        <option>HP 26%</option>
+      <select>
+        <option>-- Select Stat --</option>
+        <option>Attack +26%</option>
+        <option>Crit Chance +16%</option>
+        <option>Attack Speed +16%</option>
       </select>
     </div>
 
-    <!-- Helm -->
-    <div class="gear-slot">
+    <div class="gear-slot helm">
       <img src="https://i.imgur.com/5wJhCGL.png" alt="Helm">
-      <div class="chosen-stats"></div>
-      <select class="stat-select">
-        <option value="">-- Select Stat --</option>
-        <option>Attack 26%</option>
-        <option>Attack Speed 16%</option>
-        <option>Crit Chance 16%</option>
-        <option>Evasion 16%</option>
-        <option>Critical Damage 40%</option>
-        <option>Defence 26%</option>
-        <option>HP 26%</option>
+      <select>
+        <option>-- Select Stat --</option>
       </select>
     </div>
 
-    <!-- Chest -->
-    <div class="gear-slot">
+    <div class="gear-slot chest">
       <img src="https://i.imgur.com/NoEyUq8.png" alt="Chest">
-      <div class="chosen-stats"></div>
-      <select class="stat-select">
-        <option value="">-- Select Stat --</option>
-        <option>Attack 26%</option>
-        <option>Attack Speed 16%</option>
-        <option>Crit Chance 16%</option>
-        <option>Evasion 16%</option>
-        <option>Critical Damage 40%</option>
-        <option>Defence 26%</option>
-        <option>HP 26%</option>
+      <select>
+        <option>-- Select Stat --</option>
       </select>
     </div>
 
-    <!-- Gloves -->
-    <div class="gear-slot">
+    <div class="gear-slot gloves">
       <img src="https://i.imgur.com/f8SnRKu.png" alt="Gloves">
-      <div class="chosen-stats"></div>
-      <select class="stat-select">
-        <option value="">-- Select Stat --</option>
-        <option>Attack 26%</option>
-        <option>Attack Speed 16%</option>
-        <option>Crit Chance 16%</option>
-        <option>Evasion 16%</option>
-        <option>Critical Damage 40%</option>
-        <option>Defence 26%</option>
-        <option>HP 26%</option>
+      <select>
+        <option>-- Select Stat --</option>
       </select>
     </div>
 
-    <!-- Belt -->
-    <div class="gear-slot">
+    <div class="gear-slot belt">
       <img src="https://i.imgur.com/Esr60DE.png" alt="Belt">
-      <div class="chosen-stats"></div>
-      <select class="stat-select">
-        <option value="">-- Select Stat --</option>
-        <option>Attack 26%</option>
-        <option>Attack Speed 16%</option>
-        <option>Crit Chance 16%</option>
-        <option>Evasion 16%</option>
-        <option>Critical Damage 40%</option>
-        <option>Defence 26%</option>
-        <option>HP 26%</option>
+      <select>
+        <option>-- Select Stat --</option>
       </select>
     </div>
 
-    <!-- Boots -->
-    <div class="gear-slot">
+    <div class="gear-slot boots">
       <img src="https://i.imgur.com/ynALsQZ.png" alt="Boots">
-      <div class="chosen-stats"></div>
-      <select class="stat-select">
-        <option value="">-- Select Stat --</option>
-        <option>Attack 26%</option>
-        <option>Attack Speed 16%</option>
-        <option>Crit Chance 16%</option>
-        <option>Evasion 16%</option>
-        <option>Critical Damage 40%</option>
-        <option>Defence 26%</option>
-        <option>HP 26%</option>
+      <select>
+        <option>-- Select Stat --</option>
       </select>
     </div>
 
-    <!-- Ring -->
-    <div class="gear-slot">
+    <div class="gear-slot ring">
       <img src="https://i.imgur.com/NOK6oWr.png" alt="Ring">
-      <div class="chosen-stats"></div>
-      <select class="stat-select">
-        <option value="">-- Select Stat --</option>
-        <option>Attack 26%</option>
-        <option>Attack Speed 16%</option>
-        <option>Crit Chance 16%</option>
-        <option>Evasion 16%</option>
-        <option>Critical Damage 40%</option>
-        <option>Defence 26%</option>
-        <option>HP 26%</option>
+      <select>
+        <option>-- Select Stat --</option>
       </select>
     </div>
 
-    <!-- Weapon -->
-    <div class="gear-slot">
+    <div class="gear-slot weapon">
       <img src="https://i.imgur.com/uTezEzX.png" alt="Weapon">
-      <div class="chosen-stats"></div>
-      <select class="stat-select">
-        <option value="">-- Select Stat --</option>
-        <option>Attack 26%</option>
-        <option>Attack Speed 16%</option>
-        <option>Crit Chance 16%</option>
-        <option>Evasion 16%</option>
-        <option>Critical Damage 40%</option>
-        <option>Defence 26%</option>
-        <option>HP 26%</option>
+      <select>
+        <option>-- Select Stat --</option>
       </select>
     </div>
 
-    <!-- Character -->
-    <div class="gear-slot">
+    <div class="character">
       <img src="https://i.imgur.com/yVTs5Pm.png" alt="Character">
-      <div class="chosen-stats"></div>
-      <select class="stat-select">
-        <option value="">-- Select Stat --</option>
-        <option>Attack 26%</option>
-        <option>Attack Speed 16%</option>
-        <option>Crit Chance 16%</option>
-        <option>Evasion 16%</option>
-        <option>Critical Damage 40%</option>
-        <option>Defence 26%</option>
-        <option>HP 26%</option>
-      </select>
     </div>
-
   </div>
 
-  <div id="totals-box">
-    <h2>Total Stats</h2>
-    <ul id="totals-list">
-      <li>Attack: 0%</li>
-      <li>Attack Speed: 0%</li>
-      <li>Crit Chance: 0%</li>
-      <li>Evasion: 0%</li>
-      <li>Critical Damage: 0%</li>
-      <li>Defence: 0%</li>
-      <li>HP: 0%</li>
+  <!-- Stats panel -->
+  <div class="stats-panel">
+    <h2>Stats</h2>
+    <ul>
+      <li class="atk">ATK: 0%</li>
+      <li class="def">DEF: 0%</li>
+      <li class="crit">CRIT: 0%</li>
+      <li class="atkspd">ATK SPD: 0%</li>
+      <li class="eva">Evasion: 0%</li>
+      <li class="hp">HP: 0%</li>
     </ul>
-    <button id="reset-btn">Reset All</button>
   </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
 body {
